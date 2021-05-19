@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  angular:
+    hostname: localhost
+    container_name: angular-nginx
+    build: .
+    ports:
+      - 6001:80
+      - 7001:443
