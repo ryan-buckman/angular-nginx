@@ -9,11 +9,11 @@ A simple example of running an Angular application with NGINX and Docker
 
 ## SSL Setup
 
-To access the application over ssl we need to create a self signed SSL certificate. In the app nginx/ssl folder run the following command:
+To access the application over ssl we need to create a self signed SSL certificate. In the app nginx folder run the following command:
 
 ``openssl req -newkey rsa:2048 -nodes -keyout localhost.key -x509 -days 365 -out localhost.crt``
 
-Make sure you have two new files in your nginx/ssl dir
+Make sure you have two new files in your nginx dir
 
 ##  Quick Start
 
