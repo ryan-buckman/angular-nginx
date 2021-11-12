@@ -1,4 +1,4 @@
-# angular-nginx
+# Running Angular with NGINX and Docker over ssl
 
 A simple example of running an Angular application with NGINX and Docker 
 
